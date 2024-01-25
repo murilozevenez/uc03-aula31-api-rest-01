@@ -1,0 +1,19 @@
+GET http://localhost:5000/
+
+### Obeter todos os usuarios
+
+GET http://localhost:5000/users
+
+### Obeter usuario pelo id
+
+GET http://localhost:5000/users/4
+
+### Criar um novo usuario
+
+POST http://localhost:5000/users 
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Fulano"
+}
